@@ -1,6 +1,6 @@
 // Configurações iniciais
 const config = {
-  proposalDate: new Date('May 01, 2025 16:00:00').getTime(),
+  proposalDate: new Date(Date.UTC(2025, 4, 1, 16, 0, 0)).getTime(),
   datingStartDate: new Date('May 01, 2025 16:00:00').getTime(),
   carouselIntervalTime: 5000,
   heartCreationInterval: 300,
