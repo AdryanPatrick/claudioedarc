@@ -1,12 +1,12 @@
 // Configurações iniciais
 const config = {
-  proposalDate: new Date(Date.UTC(2025, 4, 1, 16, 0, 0)).getTime(),
-  datingStartDate: new Date('May 01, 2025 16:00:00').getTime(),
+  // Formato ISO com fuso horário explícito (Brasília -03:00)
+  proposalDate: new Date('2025-05-01T16:00:00-03:00').getTime(),
+  datingStartDate: new Date('2025-05-01T16:00:00-03:00').getTime(),
   carouselIntervalTime: 5000,
   heartCreationInterval: 300,
   confettiCount: 150
 };
-
 // Elementos DOM
 const elements = {
   audioPlayer: document.getElementById('audio-player'),
